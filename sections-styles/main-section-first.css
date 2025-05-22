@@ -1,0 +1,158 @@
+.g-c-bg {
+  background-image: url('../img/gaming-consoles/bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.gaming-consoles {
+  padding-top: 172px;
+  padding-bottom: 98px;
+  position: relative;
+}
+  
+.gaming-consoles::after {
+  position: absolute;
+  content: '';
+  top: 315px;
+  left: 0;
+  background-image: url('../img/gaming-consoles/absolute-elem1.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 111.8px;
+  height: 111.8px;
+  z-index: 1;
+}
+  
+.g-c-layer {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+}
+  
+.g-c-left {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+  
+.g-c-left::before {
+  position: absolute;
+  content: '';
+  bottom: -40px;
+  right: 271px;
+  background-image: url('../img/gaming-consoles/absolute-elem2.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 117.8px;
+  height: 117.8px;
+  animation: 
+    g-c-left-before-move 2s ease-out forwards,
+    g-c-left-before-rotate 3s linear 2s infinite;
+  z-index: 1;
+}
+  
+.g-c-title-elems {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  background: none;
+  transition: var(--main-transition);
+  width: max-content;
+}
+  
+.g-c-title-elems-arrow {
+  width: 50px;
+  height: 29px;
+  animation: g-c-arrow 3s linear infinite;
+}
+
+.g-c-right {
+  position: relative;
+}
+  
+.g-c-right-center {
+  position: relative;
+  width: 542.99px;
+  height: 584.05px;
+}
+  
+.g-c-right-center::before {
+  position: absolute;
+  content: '';
+  top: 50%;
+  right: -122.74px;
+  transform: translateY(-50%);
+  width: 122.74px;
+  height: 108.99px;
+  background-image: url('../img/gaming-consoles/dots.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+}
+  
+.g-c-right-top {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  z-index: 5;
+  transform: translate(-25%, -15%) scale(1.1);
+  transition: var(--main-transition);
+}
+  
+.g-c-right-center-hero {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  z-index: 3;
+  transform: translate(-4%);
+  animation: g-c-right-center-hero 2s ease forwards;
+}
+  
+.g-c-right-center-hero-elem {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  z-index: 3;
+  transform: translate(15%, 65%);
+  animation: g-c-right-center-hero-pulse 2s ease forwards;
+}
+  
+.g-c-right-center-bg-1 {
+  position: absolute;
+  content: '';
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+  width: 512.83px;
+  height: 465.83px;
+  background-color: #4e8ed354;
+  border-radius: 50%;
+  z-index: 1;
+}
+  
+.g-c-right-center-bg-2 {
+  position: absolute;
+  content: '';
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+  width: 465.83px;
+  height: 465.83px;
+  background-image: linear-gradient(180deg, #826F8C 17.46%, #446381 87.77%);
+  border-radius: 50%;
+  z-index: 2;
+}
+  
+.g-c-right-bottom {
+  position: absolute;
+  content: '';
+  right: 0;
+  bottom: 0;
+  z-index: 5;
+  transform: translate(55%, 30%) scale(1.1);
+  transition: var(--main-transition);
+}

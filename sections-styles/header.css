@@ -1,0 +1,81 @@
+header {
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    z-index: 999;
+}
+
+.header__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__content--logo a {
+    display: block;
+    width: 287px;
+    height: 78px;
+}
+
+.header__content--nav-and-button {
+    display: flex;
+    gap: 55px;
+}
+
+.header__content--nav {
+    display: flex;
+    align-items: center;
+}
+
+.header__content--ul {
+    display: flex;
+    gap: 52px;
+}
+
+.header__content--link-decoration {
+    position: relative;
+}
+
+.header__content--link-decoration::after,
+.header__content--link-decoration::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 100%;
+    height: 2px;
+    background: var(--button-bg-gradient);
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: var(--main-transition);
+}
+
+.header__content--link-decoration::before {
+    transform-origin: left;
+}
+
+.header__content--link-decoration:hover::after,
+.header__content--link-decoration:hover::before {
+    transform: scaleX(1);
+}
+
+/* Burger Menu */
+
+.header__content--burger {
+    width: 40px;
+    height: 40px;
+    display: none;
+}
+
+.header__content--burger img {
+    width: 100%;
+    height: 100%;
+}
+
+.header__content--burger:hover {
+    cursor: pointer;
+}
+
+.burger-menu-visibility {
+    display: none;
+}

@@ -1,0 +1,121 @@
+.a-x-p-bg {
+    background-image: url('../img/about-xbox-ps/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.about-xbox-ps {
+    padding-top: 113.75px;
+    padding-bottom: 113.75px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 95.17px
+  }
+  
+  .about-xbox-ps-text p {
+    position: relative;
+  }
+  
+  .about-xbox-ps-text p::after{
+    position: absolute;
+    content: '';
+    bottom: 0;
+    right: 0;
+    background: url('../img/about-vr-glasses/arrow.png');
+    width: 32.76px;
+    height: 18.93px;
+    animation: about-p-after-pusle 3s ease infinite;
+  }
+  
+  .about-xbox-ps-img {
+    position: relative;
+    width: 556.78px;
+    height: 566.86px;
+  }
+  
+  .xbox-ps-img-circle {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+  }
+  
+  .xbox-ps-img-flow-left {
+    position: absolute;
+    content: '';
+    top: 31.63px;
+    left: 54.22px;
+    z-index: 1;
+  }
+  
+  .xbox-ps-img-flow-right {
+    position: absolute;
+    content: '';
+    top: 102.23px;
+    right: 16.01px;
+    z-index: 1;
+  }
+  
+  .xbox-ps-img-back-elem {
+    position: absolute;
+    content: '';
+    top: 75.87px;
+    right: 0.26px;
+    z-index: 1;
+  }
+  
+  .xbox-ps-img-back-control {
+    position: absolute;
+    content: '';
+    bottom: 24.36px;
+    left: 3.16px;
+    z-index: 2;
+    animation: xbox-ps-img-back-control-move 2s ease infinite;
+  }
+  
+  .xbox-ps-img-back-men-left {
+    position: absolute;
+    content: '';
+    top: 134.03px;
+    left: 27.76px;
+    z-index: 2;
+    animation: xbox-ps-img-back-men-left 2s ease infinite;
+  }
+  
+  .xbox-ps-img-back-men-right {
+    position: absolute;
+    content: '';
+    bottom: 14.16px;
+    right: 14.25px;
+    z-index: 2;
+  }
+  
+  .xbox-ps-img-back-gr1 {
+    position: absolute;
+    content: '';
+    top: 42.38px;
+    right: 103.44px;
+    z-index: 3;
+    animation: xbox-ps-img-back-gr 5s linear infinite;
+  }
+  
+  .xbox-ps-img-back-gr2 {
+    position: absolute;
+    content: '';
+    top: 127.09px;
+    right: 219.43px;
+    z-index: 3;
+    animation: xbox-ps-img-back-gr 5s linear infinite;
+  }
+
+  .xbox-ps-img-back-dots {
+    position: absolute;
+    position: absolute;
+    content: '';
+    bottom: 110px;
+    right: -77px;
+    z-index: 0;
+  }
+  

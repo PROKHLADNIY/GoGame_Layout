@@ -1,0 +1,75 @@
+.a-v-g-bg {
+  background-image: 
+    url('../img/about-vr-glasses/bg-1.png'),
+    url('../img/about-vr-glasses/bg-2.png');
+  background-repeat: no-repeat;
+  background-size: 35%, cover;
+  background-position: right -25% top 0, center center;
+}
+
+.about-vr-glasses {
+    padding: 92.16px 0;
+  }
+  
+  .a-v-g-layer {
+    background-image: url('../img/about-vr-glasses/bg-vr.png');
+    background-position: bottom right 10%;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-items: center;
+    gap: 75.53px;
+  }
+  
+  .a-v-g-img {
+    position: relative;
+    width: 556.78px;
+    height: 564.79px;
+  }
+  
+  .a-v-g-img-circle {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+  }
+  
+  .a-v-g-img-shadow {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 75px;
+  }
+  
+  .a-v-g-img-screen {
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 0;
+    animation: a-v-g-img-screen 5s ease infinite;
+  }
+  
+  .a-v-g-img-men {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 70px;
+  }
+  
+  .a-v-g-about p {
+    position: relative;
+  }
+  
+  .a-v-g-about p::after {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    right: 0;
+    background: url('../img/about-vr-glasses/arrow.png');
+    width: 32.76px;
+    height: 18.93px;
+    animation: about-p-after-pusle 2s ease infinite;
+  }
+  

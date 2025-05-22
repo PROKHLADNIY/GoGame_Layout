@@ -1,0 +1,120 @@
+:root {
+  --content-width: 1167px;
+  --container-offset: 50px;
+  --container-width: 
+    calc(
+      var(--content-width) + (var(--container-offset) * 2)
+    );
+
+  --main-transition: all .5s ease;
+
+  --main-color-white: #fff;
+  --main-color-black: #000;
+
+  --page-bg-color: #FFE6D7;
+
+  --main-color-1: #EB8382;
+  --main-color-2: #826F8C;
+  --main-color-3: #446381;
+
+  --button-bg-gradient: linear-gradient(94.66deg, #4499D9 17.46%, #7367BE 87.77%);
+  --button-hover: #4499D9;
+
+  --fz-18: 18px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  min-width: 320px;
+  min-height: 100%;
+  font-family: 'Josefin Sans';
+  font-weight: 500;
+  background-color: var(--page-bg-color);
+}
+
+h1 {
+  display: none;
+}
+
+a {
+  position: relative;
+  text-decoration: none;
+  font-size: var(--fz-18);
+  color: var(--main-color-3);
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+.button {
+  position: relative;
+  padding: 14px;
+  font-family: 'Josefin Sans';
+  font-size: var(--fz-18);
+  font-weight: 500;
+  color: var(--main-color-white);
+  background: var(--button-bg-gradient);
+  border-radius: 25px;
+  transition: var(--main-transition);
+}
+
+.button:hover {
+  transform: translateY(-10%);
+  box-shadow: 0 3px 10px var(--button-hover);
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 var(--container-offset);
+  max-width: var(--container-width);
+}
+
+.h2-title {
+  margin-top: 26px;
+  font-size: 68px;
+  line-height: 75px;
+  color: var(--main-color-1);
+}
+
+.h3-title {
+  font-family: 'Josefin Sans';
+  font-size: 23px;
+  font-weight: 500;
+  color: var(--main-color-3);
+}
+
+.title-span {
+  color: var(--main-color-3);
+}
+
+.p-text {
+  margin-top: 31px;
+  font-size: var(--fz-18);
+  line-height: 29px;
+  color: var(--main-color-2);
+}
+
+.all-btn-m-t {
+  margin-top: 36px;
+  width: max-content;
+}

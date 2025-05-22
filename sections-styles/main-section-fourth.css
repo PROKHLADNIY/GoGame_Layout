@@ -1,0 +1,89 @@
+.our-pricing {
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+  }
+  
+  .our-pricing-layer {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px
+  }
+  
+  .our-pricing-box {
+    margin: 35px 0 0 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    padding: 55px;
+    background-color: #FBDACF;
+    border-radius: 20px;
+    transition: var(--main-transition);
+  }
+
+  .our-pricing-box:nth-child(2) {
+    transform: scale(1.1);
+    background: url('../img/our-pricing/box-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .our-pricing-box:nth-child(2) .h3-title,
+  .our-pricing-box:nth-child(2) .our-pricing-box-list li {
+      color: var(--main-color-white) !important;
+  }
+  
+  .our-pricing-box:nth-child(2) .our-pricing-box-list li {
+    list-style: url('../img/our-pricing/vec-w.svg');
+  }
+  
+  .our-pricing-box:nth-child(2) .our-picing-box-badge {
+    display: block !important;
+  }
+  
+  .our-picing-box-badge {
+    position: absolute;
+    content: '';
+    top: 25px;
+    right: 25px;
+    display: none;
+  }
+
+  .our-pricing-box h3 {
+    font-weight: 600;
+  }
+  
+  .our-pricing-box h2 {
+    margin: 0;
+    font-size: 52px;
+    font-weight: 600;
+  }
+  
+  .our-pricing-box h2 span {
+    font-size: 18px;
+  }
+  
+  .our-pricing-box-list {
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  
+  .our-pricing-box-list li {
+    font-family: 'Josefin Sans';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    color: var(--main-color-2);
+    list-style: url('../img/our-pricing/vec.svg');
+  }
+  
+  .our-pricing-box-btn-p {
+    padding: 13px 50px;
+  }
+  

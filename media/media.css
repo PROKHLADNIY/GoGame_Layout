@@ -1,0 +1,699 @@
+/* HEADER */
+
+@media (max-width: 1080px) {
+    .header__content--nav-and-button button {
+        display: none;
+    }
+}
+
+@media (max-width: 850px) {
+    .header__content {
+        height: 78px;
+        align-items: center;
+    }
+
+    .header__content--logo {
+        width: 200px;
+        height: 55px;
+    }
+
+    .header__content--logo a {
+        width: 100%;
+        height: 100%;
+    }
+
+    .header__content--logo a img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .header__content--nav-and-button {
+        position: fixed;
+        top: 0;
+        left: -111%;
+        height: 100%;
+        width: 50%;
+        background-color: var(--main-color-white);
+        border-top-right-radius: 50%;
+        border-bottom-right-radius: 50%;
+        transition: var(--main-transition);
+    }
+
+    .header__content--nav-and-button-open {
+        left: 0 !important;
+    }
+
+    .header__content--nav {
+        height: 100%;
+        width: 100%;
+    }
+
+    .header__content--ul {
+        height: 100%;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 5%;
+    }
+
+    .header__content--burger {
+        display: block;
+        width: 35px;
+        height: 35px;
+    }
+}
+
+/* MAIN AND FOOTER */
+
+@media (max-width: 1620px) {
+    .g-c-right-center::before {
+        right: 0;
+    }
+
+    .g-c-right-center {
+        width: 500px;
+        height: 540px;
+    }
+
+    .g-c-right-top,
+    .g-c-right-bottom {
+        transform: none;
+        z-index: 5;
+    }
+
+    .g-c-right-center-hero-elem {
+        width: 435px;
+        height: 115px;
+    }
+
+    .g-c-left::before {
+        bottom: 0;
+    }
+
+    .g-c-right-center-bg-1 {
+        width: 475px;
+        height: 425px;
+    }
+
+    .g-c-right-center-bg-2 {
+        width: 425px;
+        height: 425px;
+    }
+
+    .a-v-g-img {
+        width: 480px;
+        height: 480px;
+    }
+
+    .a-v-g-img-circle {
+        width: 100%;
+        height: 100%;
+    }
+
+    .a-v-g-img-shadow {
+        width: 265px;
+        height: 165px;
+    }
+
+    .a-v-g-img-screen {
+        width: 244px;
+        height: 344px;
+    }
+
+    .a-v-g-img-men {
+        width: 144px;
+        height: 344px;
+    }
+
+    .about-xbox-ps-img {
+        width: 515px;
+        height: 515px;
+    }
+ 
+    .xbox-ps-img-circle {
+        width: 490px;
+        height: 490px;
+    }
+
+    .xbox-ps-img-back-control {
+        width: 425px;
+        height: 270px;
+    }
+
+    .xbox-ps-img-back-men-left {
+        width: 125px;
+        height: 115px;
+        top: 165px;
+    }
+
+    .xbox-ps-img-back-men-right {
+        width: 85px;
+        height: 165px;
+        right: 50.25px;
+    }
+
+    .xbox-ps-img-back-elem {
+        width: 445px;
+        height: 265px;
+        top: 120px;
+        right: 50px;
+    }
+
+    .xbox-ps-img-flow-right {
+        width: 130px;
+        height: 175px;
+        top: 148.23px;
+        right: 75.01px;
+    }
+
+    .xbox-ps-img-flow-left {
+        width: 135px;
+        height: 175px;
+        top: 90px;
+        left: 70.55px;
+    }
+
+    .xbox-ps-img-back-gr1 {
+        width: 105px;
+        height: 105px;
+        top: 93.38px;
+        right: 162.44px;
+    }
+
+    .xbox-ps-img-back-gr2 {
+        width: 65px;
+        height: 65px;
+        top: 150.09px;
+        right: 260.43px;
+    }
+
+    .xbox-ps-img-back-dots {
+        width: 114px;
+        height: 114px;
+        right: 5px;
+    }
+
+    .our-pricing-box {
+        gap: 25px;
+        padding: 35px;
+    }
+
+    .button {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 1420px) {
+    .g-c-layer {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .g-c-bg {
+        background-size: unset;
+    }
+
+    .g-c-left::before {
+        right: 0;
+    }
+
+    .g-c-title-elems {
+        gap: 30px;
+    }
+
+    .h2-title {
+        font-size: 48px;
+        line-height: 52px;
+        width: 315px;
+        text-align: center;
+    }
+
+    .h3-title {
+        font-size: 20px;
+    }
+    
+    .p-text {
+        font-size: 16px;
+    }
+
+    .a-v-g-about p::after {
+        display: none;
+    }
+
+    .g-c-title-elems-arrow {
+        width: 40px;
+        height: 20px;
+    }
+
+    .g-c-right {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .g-c-right-top {
+        top: -15px;
+        left: -15px;
+    }
+
+    .g-c-right-center {
+        width: 450px;
+        height: 485px;
+    }
+
+    .g-c-right-center-hero-elem {
+        width: 410px;
+        height: 115px;
+    }
+
+    .g-c-right-center-bg-1 {
+        width: 415px;
+        height: 375px;
+    }
+    .g-c-right-center-bg-2 {
+        width: 375px;
+        height: 375px;
+    }
+
+    .g-c-right-bottom {
+        bottom: -50px;
+        right: -50px;
+    }
+
+    .a-v-g-layer {
+        gap: 25px;
+    }
+
+    .a-v-g-img {
+        width: 390px;
+        height: 390px;
+    }
+
+    .a-v-g-img-circle {
+        width: 100%;
+        height: 100%;
+    }
+
+    .a-v-g-img-shadow {
+        width: 185px;
+        height: 115px;
+    }
+
+    .a-v-g-img-screen {
+        width: 185px;
+        height: 255px;
+    }
+
+    .a-v-g-img-men {
+        width: 124px;
+        height: 274px;
+    }
+
+    .about-xbox-ps-text {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        text-align: end;
+    }
+
+    .about-xbox-ps-text p::after {
+        display: none;
+    }
+
+    .about-xbox-ps {
+        gap: 40px;
+    }
+
+    .about-xbox-ps-img {
+        width: 400px;
+        height: 400px;
+    }
+ 
+    .xbox-ps-img-circle {
+        display: none;
+    }
+
+    .xbox-ps-img-back-control {
+        width: 275px;
+        height: 175px;
+    }
+
+    .xbox-ps-img-back-men-left {
+        width: 95px;
+        height: 95px;
+        top: 150px;
+        left: 5px;
+    }
+
+    .xbox-ps-img-back-men-right {
+        width: 65px;
+        height: 120px;
+        right: 95px;
+    }
+
+    .xbox-ps-img-back-elem {
+        width: 265px;
+        height: 145px;
+        top: 140px;
+        right: 105px;
+    }
+
+    .xbox-ps-img-flow-right {
+        width: 95px;
+        height: 125px;
+        top: 145px;
+        right: 105px;
+    }
+
+    .xbox-ps-img-flow-left {
+        width: 95px;
+        height: 125px;
+        top: 90px;
+        left: 65px;
+    }
+
+    .xbox-ps-img-back-gr1 {
+        width: 65px;
+        height: 65px;
+        top: 125px;
+        right: 175px;
+    }
+
+    .xbox-ps-img-back-gr2 {
+        width: 35px;
+        height: 35px;
+        top: 165px;
+        right: 235px;
+    }
+
+    .xbox-ps-img-back-dots {
+        width: 65px;
+        height: 65px;
+        right: 95px;
+    }
+
+    .our-pricing-box h3 {
+        font-size: 18px;
+    }
+
+    .our-pricing-box h2 {
+        font-size: 35px;
+    }
+
+    .our-pricing-box h2 {
+        text-align: start;
+        width: 100%;
+    }
+
+    .our-pricing-box-list li {
+        font-size: 14px;
+    }
+
+    .our-pricing-box-btn-p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1080px) {
+    .gaming-consoles::after {
+        display: none;
+    }
+
+    .g-c-layer {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+    }
+
+    .g-c-title-elems-arrow {
+        display: none;
+    }
+
+    .g-c-left::before {
+        display: none;
+    }
+
+
+    .g-c-right-center {
+        display: none;
+    }
+
+    .g-c-right {
+        background-image: url('../media/img/hero.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 520px;
+        height: 445px;
+        animation: opacity-for-media-elem 3s ease forwards;
+    }
+
+    .a-v-g-img {
+        background-image: url('../media/img/illutration-1.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 345px;
+        height: 375px;
+        animation: opacity-for-media-elem 3s ease forwards;
+    }
+
+    .a-v-g-img img {
+        display: none;
+    }
+
+    .a-v-g-about p::after {
+        display: none;
+    }
+
+    .about-xbox-ps-img img {
+        display: none;
+    }
+
+    .about-xbox-ps-img {
+        background-image: url('../media/img/illutration-2.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 345px;
+        height: 295px;
+        animation: opacity-for-media-elem 3s ease forwards;
+    }
+
+    .our-pricing-layer {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .footer__content--layer p {
+        font-size: 14px;
+        text-align: center;
+        text-wrap: wrap;
+    }
+}
+
+@media (max-width: 1000px) {
+    .g-c-right {
+        width: 475px;
+        height: 395px;
+    }
+}
+
+@media (max-width: 960px) {
+    .gaming-consoles {
+        padding-top: 145px;
+        padding-bottom: 75px;
+    }
+
+    .g-c-right {
+        display: flex;
+        justify-content: flex-end;
+        width: 315px;
+        height: 275px;
+    }
+
+    .a-v-g-layer {
+        gap: 40px;
+    }
+
+    .about-xbox-ps {
+        padding-top: 70px;
+        padding-bottom: 70px;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 40px;
+    }
+
+    .about-xbox-ps-text {
+        align-items: center;
+        text-align: center;
+    }
+    
+    .footer__content--layer {
+        flex-direction: column;
+        gap: 25px;
+    }
+}
+
+@media (max-width: 860px) {
+    .gaming-consoles {
+        padding-top: 120px;
+        padding-bottom: 55px;
+    }
+
+    .g-c-layer {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .g-c-left {
+        align-items: center;
+        text-align: center;
+    }
+
+    .h3-title {
+        font-size: 18px;
+    }
+
+    .h2-title {
+        margin-top: 18px;
+        font-size: 32px;
+        line-height: 42px;
+    }
+
+    .p-text {
+        margin-top: 10px;
+        font-size: 14px;
+        text-wrap: wrap;
+    }
+
+    .button {
+        font-size: 14px;
+    }
+    
+    .about-vr-glasses {
+        padding: 60.16px 0;
+    }
+
+    .a-v-g-layer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .a-v-g-about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .a-v-g-img {
+        width: 285px;
+        height: 320px;
+    }
+
+    .about-xbox-ps {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .our-pricing {
+        gap: 0;
+    }
+}
+
+@media (max-width: 495px) {
+    .g-c-right {
+        width: 275px;
+        height: 235px;
+    }
+
+    .h2-title {
+        width: 100%;
+    }
+
+    .p-text {
+        text-align: start;
+        line-height: 22px;
+    }
+
+    .button {
+        margin: 15px 0 0 0;
+    }
+
+    .a-v-g-img {
+        width: 265px;
+        height: 270px;
+    }
+
+    .about-xbox-ps-img {
+        width: 260px;
+        height: 220px;
+    }
+
+    .our-pricing-box {
+        padding: 20px;
+        gap: 15px
+    }
+
+    .our-picing-box-badge {
+        top: 10px;
+        right: 10px;
+    }
+
+    .our-pricing-box h2 {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 340px) {
+    .container {
+        padding: 0 5%;
+    }
+}
+
+/* CONTAINER */
+
+@media (min-width: 0) and (max-width: 420px) {
+    .container {
+        padding: 0 8%;
+    }
+}
+
+/* HOVER NONE */
+
+@media (max-width: 1080px) {
+    .button:hover {
+        transform: none !important;
+        box-shadow: none !important;
+    }
+
+    .footer__content--img:hover {
+        transform: none !important;
+        cursor: default !important;
+    }
+
+    .header__content--link-decoration:hover::after,
+    .header__content--link-decoration:hover::before {
+        transform: scaleX(0) !important;
+    }
+
+    .header__content--burger:hover {
+        cursor: default !important;
+    }
+
+    .our-pricing-box:hover {
+        transform: none !important;
+    }
+
+    .our-pricing-box:nth-child(2) {
+        transform: scale(1.1) !important;
+    }
+
+    .g-c-right-top:hover,
+    .g-c-right-bottom:hover {
+        transform: none !important;
+    }
+}
