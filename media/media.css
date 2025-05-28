@@ -1,3 +1,11 @@
+/* CONTAINER */
+
+@media (min-width: 0) and (max-width: 420px) {
+    .container {
+        padding: 0 8%;
+    }
+}
+
 /* HEADER */
 
 @media (max-width: 1080px) {
@@ -651,14 +659,6 @@
 @media (max-width: 340px) {
     .container {
         padding: 0 5%;
-    }
-}
-
-/* CONTAINER */
-
-@media (min-width: 0) and (max-width: 420px) {
-    .container {
-        padding: 0 8%;
     }
 }
 
